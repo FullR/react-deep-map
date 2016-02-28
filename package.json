@@ -1,0 +1,30 @@
+{
+  "name": "react-deep-map",
+  "version": "1.0.0",
+  "description": "A utility function for deeply transforming React element trees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FullR/react-deep-map.git"
+  },
+  "keywords": [
+    "react",
+    "utility"
+  ],
+  "author": "James Meyers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullR/react-deep-map/issues"
+  },
+  "homepage": "https://github.com/FullR/react-deep-map#readme",
+  "dependencies": {
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
