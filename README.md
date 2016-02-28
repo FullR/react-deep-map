@@ -11,7 +11,7 @@ Deeply transform a React element tree.
 import React from "react";
 import reactDeepMap from "react-deep-map";
 
-// replace all instances of "&" in classNames with `blockName`
+// replace all instances of "&" in class names with `blockName`
 function amp(blockName, tree) {
   return reactDeepMap(tree, (el) => {
     if(el && el.props && el.props.className && el.props.className.indexOf("&") !== -1) {
